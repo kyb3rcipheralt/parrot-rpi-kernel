@@ -1,5 +1,7 @@
 Parrot OS Raspberry Pi Linux Kernel
 
-Based on [raspberry/linux](https://github.com/raspberrypi/linux)
+**Actual version: Linux Kernel 4.10**
 
-By: [Kyb3r Vizsla](https://kyb3rvizsla.com)
+Based on [raspberry/linux](https://github.com/raspberrypi/linux).
+
+By: [Kyb3r Vizsla](https://kyb3rvizsla.com).
