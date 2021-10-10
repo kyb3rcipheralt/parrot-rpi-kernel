@@ -32,7 +32,7 @@ cd ..
 
 # Out kernel
 mkdir out
-cp *.deb out
+cp -r linux-* out
 cp -r boot out
 
 # Delete folders (optional)
