@@ -1,0 +1,33 @@
+Format: 1.8
+Date: Sun, 10 Oct 2021 15:03:01 -0500
+Source: linux-5.10.63-v8+
+Binary: linux-headers-5.10.63-v8+ linux-image-5.10.63-v8+ linux-libc-dev
+Architecture: arm64
+Version: 5.10.63-v8+-1
+Distribution: bullseye
+Urgency: low
+Maintainer: kyb3r <kyb3r@Kyb3rBian.kyb3rvizsla.com>
+Changed-By: kyb3r <kyb3r@Kyb3rBian.kyb3rvizsla.com>
+Description:
+ linux-headers-5.10.63-v8+ - Linux kernel headers for 5.10.63-v8+ on arm64
+ linux-image-5.10.63-v8+ - Linux kernel, version 5.10.63-v8+
+ linux-libc-dev - Linux support headers for userspace development
+Changes:
+ linux-5.10.63-v8+ (5.10.63-v8+-1) bullseye; urgency=low
+ .
+   * Custom built Linux kernel.
+Checksums-Sha1:
+ 529b182310af510f9bbd08b087129f618ae64fe1 5139 linux-5.10.63-v8+_5.10.63-v8+-1_arm64.buildinfo
+ b51fa2de1f544a4449d5af276ca9026e75d37c53 7530696 linux-headers-5.10.63-v8+_5.10.63-v8+-1_arm64.deb
+ b4e8c0b5254e49a8a6164b1a45f450c7535cda5a 22482340 linux-image-5.10.63-v8+_5.10.63-v8+-1_arm64.deb
+ fb4560fa90dafecaafdcd02bb9b54f091b5b8c4d 1118988 linux-libc-dev_5.10.63-v8+-1_arm64.deb
+Checksums-Sha256:
+ 28ad21a588f0a6ff8ee7585e544bc5283cc9c2ee8e3a940e34ca1a6f662a05ae 5139 linux-5.10.63-v8+_5.10.63-v8+-1_arm64.buildinfo
+ fb0339973a5215f127c0cb9bc9a582e1d46feeea15ab68a658ef814c14b705bc 7530696 linux-headers-5.10.63-v8+_5.10.63-v8+-1_arm64.deb
+ 3952e47e30cd9ca340f25b805c7df148b7ab86d6559d8404248728fb14128f35 22482340 linux-image-5.10.63-v8+_5.10.63-v8+-1_arm64.deb
+ 92b0fbe013b2ef36877bf9bea39c305f66fcb6d79c33aa9a4ad8686d511bf99e 1118988 linux-libc-dev_5.10.63-v8+-1_arm64.deb
+Files:
+ 8fc65166b27df3e23c05777548b3c1a9 5139 kernel optional linux-5.10.63-v8+_5.10.63-v8+-1_arm64.buildinfo
+ 32363b791ee0b6bd00a629c5eb08be32 7530696 kernel optional linux-headers-5.10.63-v8+_5.10.63-v8+-1_arm64.deb
+ fdf9f6ceaabad740fc04dd7e177160ac 22482340 kernel optional linux-image-5.10.63-v8+_5.10.63-v8+-1_arm64.deb
+ c315ec961a2555777815aa20275498b1 1118988 devel optional linux-libc-dev_5.10.63-v8+-1_arm64.deb
